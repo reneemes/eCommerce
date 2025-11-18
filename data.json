@@ -1,0 +1,124 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "type": "product",
+      "attributes": {
+        "name": "product name",
+        "price": 123,
+        "description": "Product description...",
+        "img-url": "URL"
+      }
+    },
+    {
+      "id": 2,
+      "type": "product",
+      "attributes": {
+        "name": "product name",
+        "price": 123,
+        "description": "Product description...",
+        "img-url": "URL"
+      }
+    },
+    {
+      "id": 3,
+      "type": "product",
+      "attributes": {
+        "name": "product name",
+        "price": 123,
+        "description": "Product description...",
+        "img-url": "URL"
+      }
+    },
+    {
+      "id": 4,
+      "type": "product",
+      "attributes": {
+        "name": "product name",
+        "price": 123,
+        "description": "Product description...",
+        "img-url": "URL"
+      }
+    },
+    {
+      "id": 5,
+      "type": "product",
+      "attributes": {
+        "name": "product name",
+        "price": 123,
+        "description": "Product description...",
+        "img-url": "URL"
+      }
+    },
+    {
+      "id": 6,
+      "type": "product",
+      "attributes": {
+        "name": "product name",
+        "price": 123,
+        "description": "Product description...",
+        "img-url": "URL"
+      }
+    },
+    {
+      "id": 7,
+      "type": "product",
+      "attributes": {
+        "name": "product name",
+        "price": 123,
+        "description": "Product description...",
+        "img-url": "URL"
+      }
+    },
+    {
+      "id": 8,
+      "type": "product",
+      "attributes": {
+        "name": "product name",
+        "price": 123,
+        "description": "Product description...",
+        "img-url": "URL"
+      }
+    },
+    {
+      "id": 9,
+      "type": "product",
+      "attributes": {
+        "name": "product name",
+        "price": 123,
+        "description": "Product description...",
+        "img-url": "URL"
+      }
+    },
+    {
+      "id": 10,
+      "type": "product",
+      "attributes": {
+        "name": "product name",
+        "price": 123,
+        "description": "Product description...",
+        "img-url": "URL"
+      }
+    },
+    {
+      "id": 11,
+      "type": "product",
+      "attributes": {
+        "name": "product name",
+        "price": 123,
+        "description": "Product description...",
+        "img-url": "URL"
+      }
+    },
+    {
+      "id": 12,
+      "type": "product",
+      "attributes": {
+        "name": "product name",
+        "price": 123,
+        "description": "Product description...",
+        "img-url": "URL"
+      }
+    }
+  ]
+}
