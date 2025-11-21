@@ -4,120 +4,120 @@
       "id": 1,
       "type": "product",
       "attributes": {
-        "name": "product name",
-        "price": 123,
-        "description": "Product description...",
-        "img-url": "URL"
+        "name": "Everything Bagel Bites",
+        "price": 3.29,
+        "description": "Two mini everything bagels filled with cream cheese.",
+        "img-url": "https://instantpot.com/cdn/shop/articles/Copycapt-Dunkin-Everything-Bagel-Bites-1-e1691589811827.jpg?v=1707923606&width=1706"
       }
     },
     {
       "id": 2,
       "type": "product",
       "attributes": {
-        "name": "product name",
-        "price": 123,
-        "description": "Product description...",
-        "img-url": "URL"
+        "name": "Sesame Bagel Bites",
+        "price": 3.29,
+        "description": "Two mini sesame bagels filled with cream cheese.",
+        "img-url": "https://somethingnutritiousblog.com/wp-content/uploads/2024/07/6D52F58A-14BD-4A6E-8E11-08601485198B-scaled-3.jpeg"
       }
     },
     {
       "id": 3,
       "type": "product",
       "attributes": {
-        "name": "product name",
-        "price": 123,
+        "name": "Sourdough Cinnamon Raisin Bagel",
+        "price": 2.95,
         "description": "Product description...",
-        "img-url": "URL"
+        "img-url": "https://foodovercomfort.com/wp-content/uploads/2024/04/sourdough-cinnamon-raisin-bagels.jpg"
       }
     },
     {
       "id": 4,
       "type": "product",
       "attributes": {
-        "name": "product name",
-        "price": 123,
+        "name": "Pizza Bagel",
+        "price": 6.50,
         "description": "Product description...",
-        "img-url": "URL"
+        "img-url": "https://cdn5.projectmealplan.com/wp-content/uploads/2022/06/air-fryer-pizza-bagel-bites-hero-top-scaled.jpg"
       }
     },
     {
       "id": 5,
       "type": "product",
       "attributes": {
-        "name": "product name",
-        "price": 123,
+        "name": "Everything Bagel",
+        "price": 2.50,
         "description": "Product description...",
-        "img-url": "URL"
+        "img-url": "https://www.thisjess.com/wp-content/uploads/2024/09/Homemade-everything-bagels-stack-1.jpg"
       }
     },
     {
       "id": 6,
       "type": "product",
       "attributes": {
-        "name": "product name",
-        "price": 123,
+        "name": "Blueberry Bagel",
+        "price": 2.50,
         "description": "Product description...",
-        "img-url": "URL"
+        "img-url": "https://www.thisjess.com/wp-content/uploads/2023/05/Sourdough-discard-blueberry-bagels-final-1.jpg"
       }
     },
     {
       "id": 7,
       "type": "product",
       "attributes": {
-        "name": "product name",
-        "price": 123,
+        "name": "Chocolate Chip Bagel",
+        "price": 2.50,
         "description": "Product description...",
-        "img-url": "URL"
+        "img-url": "https://homebodyeats.com/wp-content/uploads/2024/06/chocolate-chip-bagels.jpg"
       }
     },
     {
       "id": 8,
       "type": "product",
       "attributes": {
-        "name": "product name",
-        "price": 123,
+        "name": "Bagel Breakfast Sandwich",
+        "price": 7.00,
         "description": "Product description...",
-        "img-url": "URL"
+        "img-url": "https://cheeseknees.com/wp-content/uploads/2022/11/Bagel-Breakfast-Sandwiches-01.jpg"
       }
     },
     {
       "id": 9,
       "type": "product",
       "attributes": {
-        "name": "product name",
-        "price": 123,
+        "name": "Bagel and Lox",
+        "price": 9.00,
         "description": "Product description...",
-        "img-url": "URL"
+        "img-url": "https://www.kingarthurbaking.com/sites/default/files/styles/featured_image_2x/public/2025-04/Chewy-Everything-Bagels_Shot_4_027.jpg?itok=brHI0RTZ"
       }
     },
     {
       "id": 10,
       "type": "product",
       "attributes": {
-        "name": "product name",
-        "price": 123,
+        "name": "Jalapeño Cheddar Bagel",
+        "price": 2.50,
         "description": "Product description...",
-        "img-url": "URL"
+        "img-url": "https://www.shortstackkitchen.com/wp-content/uploads/2024/10/jalapeno-cheddar-bagels-39.jpg"
       }
     },
     {
       "id": 11,
       "type": "product",
       "attributes": {
-        "name": "product name",
-        "price": 123,
+        "name": "Seasonal Bagel",
+        "price": 2.50,
         "description": "Product description...",
-        "img-url": "URL"
+        "img-url": "https://www.girlversusdough.com/wp-content/uploads/2014/12/cranberry-walnut-bagels-1.jpg"
       }
     },
     {
       "id": 12,
       "type": "product",
       "attributes": {
-        "name": "product name",
-        "price": 123,
+        "name": "Cream Cheese Spread",
+        "price": 0.50,
         "description": "Product description...",
-        "img-url": "URL"
+        "img-url": "https://www.biggerbolderbaking.com/wp-content/uploads/2020/04/Homemade-Cream-Cheese-Flavors-WS-Thumbnail.jpg"
       }
     }
   ]
