@@ -1,9 +1,84 @@
-$primary-color: #a9c5a0;
+$primary-color: #b08968;
+$secondary-color: #7f5539;
+$light-brown: #ede0d4;
+$dark-brown: #432818;
+
+@mixin btn {
+  text-decoration: none;
+  background-color: $secondary-color;
+  color: $light-brown;
+  font-size: 1.25rem;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  &:hover {
+    background-color: $light-brown;
+    color: $dark-brown;
+  }
+}
 
 body {
   margin: 0;
+  height: 100vh;
+  // display: grid;
+  // grid-template-rows: repeat(3);
 }
 
 .header {
   background-color: $primary-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 10px;
+
+  &__title {
+    margin: 0;
+    color: $dark-brown;
+  }
+  &__logo {
+    height: 100px;
+  }
+
+  &__product-btn {
+    @include btn;
+  }
+  
+  &__contact-btn {
+    @include btn;
+  }
+}
+
+.main-body {
+  &__hero {
+
+    &--img {
+      height: 400px;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    &--txt {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      // transform: translate(-50%, -50%);
+    }
+  }
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  background-color: $light-brown;
+  height: 50px;
+  width: 100%;
+
+  p {
+    margin: 0;
+    color: $dark-brown;
+  }
 }

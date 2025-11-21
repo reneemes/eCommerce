@@ -1,0 +1,62 @@
+$primary-color: #b08968;
+$secondary-color: #7f5539;
+$light-brown: #ede0d4;
+$dark-brown: #432818;
+
+@mixin btn {
+  text-decoration: none;
+  background-color: $secondary-color;
+  color: $light-brown;
+  font-size: 1.25rem;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  &:hover {
+    background-color: $light-brown;
+    color: $dark-brown;
+  }
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+.header {
+  background-color: $primary-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 10px;
+
+  &__title {
+    margin: 0;
+    color: $dark-brown;
+  }
+
+  &__home-btn,
+  &__product-btn {
+    @include btn;
+  }
+}
+
+
+
+
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  background-color: $light-brown;
+  height: 50px;
+  width: 100%;
+
+  p {
+    margin: 0;
+    color: $dark-brown;
+  }
+}
