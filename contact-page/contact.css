@@ -91,7 +91,7 @@ main {
   color: #432818;
 }
 .contact-form__submit-btn:hover {
-  border: 1px solid #432818;
+  border: 2px solid #432818;
 }
 .contact-form input,
 .contact-form textarea {
