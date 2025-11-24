@@ -3,25 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/fdf00391bb.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="products.css">
   <title>Shop Bagels</title>
 </head>
 <body>
   <header class="header">
-    <a class="header__title" href="../index.html">Bagel Bites</a>
-    <div>
+    <h1 class="header__title">Bagel Bites</h1>
+    <nav class="nav nav--desktop" id="desktop-nav">
       <a class="header__home-btn" href="../index.html">Home</a>
       <a class="header__contact-btn" href="../contact-page/contact.html">Contact Us</a>
-    </div>
+    </nav>
+
+    <i class="fa-solid fa-bars fa-2xl" style="color: #432818;" onclick="openNav()" id="hamburger-icon"></i>
+    <nav class="header-nav nav nav--mobile" id="mobile-nav">
+      <i class="fa-solid fa-xmark fa-2xl" style="color: #ede0d4;" onclick="closeNav()" id="close-btn"></i>
+      <a class="header-nav__home-btn" href="../index.html">Home</a>
+      <a class="header-nav__contact-btn" href="../contact-page/contact.html">Contact Us</a>
+    </nav>
   </header>
   <main>
-    <!-- <section></section> -->
-    <section class="product-sec">
-
-    </section>
+    <section class="product-sec"></section>
   </main>
   <footer class="footer">
-    <p>Copyright</p>
+    <p class="footer__trademark">Copyright © 2025 Bagel Bites. All rights reserved.</p>
+    <p class="footer__disclosure">
+      Bagel Bites is a student project for educational purposes and is not a
+      real store.
+    </p>
   </footer>
   <script src="products.js"></script>
 </body>

@@ -6,6 +6,7 @@ $dark-brown: #432818;
 @mixin btn {
   text-decoration: none;
   background-color: $secondary-color;
+  border: 2px solid $secondary-color;
   color: $light-brown;
   font-size: 1.25rem;
   padding: 10px;
@@ -23,6 +24,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 main {
@@ -37,27 +39,51 @@ main {
   align-items: center;
   height: 60px;
   padding: 10px;
+  position: sticky;
+  top: 0;
 
   &__title {
-    margin: 0;
     color: $dark-brown;
-    font-size: 2rem;
-    font-weight: bold;
-    text-decoration: none;
+    margin: 0;
+  }
+}
 
-    &:hover {
-      color: $light-brown;
-      cursor: pointer;
-    }
+.nav {
+  &--desktop {
+    display: none;
   }
 
-  // &__logo {
-  //   height: 100px;
-  // }
+  &--mobile {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: $secondary-color;
+    overflow-x: hidden;
+    padding-top: 30px;
+    transition: 0.5s;
+    
+  }
+}
 
+.header-nav {
+  &__contact-btn ,
   &__home-btn,
-  &__contact-btn {
-    @include btn;
+  #close-btn {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 1.75rem;
+    color: $light-brown;
+    display: block;
+    transition: 0.3s;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  
+  #close-btn {
+    margin: 20px 0;
   }
 }
 
@@ -70,7 +96,6 @@ main {
   &__card {
     border-radius: 10px;
     background-color: $light-brown;
-    // height: 400px;
     width: 300px;
     margin: 10px;
 
@@ -91,14 +116,42 @@ main {
 
 .footer {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: $light-brown;
-  height: 50px;
   width: 100%;
 
-  p {
-    margin: 0;
+  &__trademark,
+  &__disclosure {
+    text-align: center;
+    margin: 3px;
     color: $dark-brown;
   }
+}
+
+// Media Queries
+@media screen and (min-width: 768px) {
+  #hamburger-icon {
+    display: none;
+  }
+
+  .nav--desktop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header {
+    &__home-btn,
+    &__contact-btn {
+      @include btn;
+      margin: 0 5px;
+    }
+  }
+
+}
+
+@media screen and (min-width: 1024px) {
+
 }

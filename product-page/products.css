@@ -3,6 +3,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  font-family: "Courier New", Courier, monospace;
 }
 
 main {
@@ -17,30 +18,43 @@ main {
   align-items: center;
   height: 60px;
   padding: 10px;
+  position: sticky;
+  top: 0;
 }
 .header__title {
+  color: #432818;
   margin: 0;
-  color: #432818;
-  font-size: 2rem;
-  font-weight: bold;
-  text-decoration: none;
 }
-.header__title:hover {
-  color: #ede0d4;
-  cursor: pointer;
+
+.nav--desktop {
+  display: none;
 }
-.header__home-btn, .header__contact-btn {
-  text-decoration: none;
+.nav--mobile {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
   background-color: #7f5539;
+  overflow-x: hidden;
+  padding-top: 30px;
+  transition: 0.5s;
+}
+
+.header-nav__contact-btn, .header-nav__home-btn,
+.header-nav #close-btn {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 1.75rem;
   color: #ede0d4;
-  font-size: 1.25rem;
-  padding: 10px;
-  border-radius: 10px;
+  display: block;
+  transition: 0.3s;
+  white-space: nowrap;
   cursor: pointer;
 }
-.header__home-btn:hover, .header__contact-btn:hover {
-  background-color: #ede0d4;
-  color: #432818;
+.header-nav #close-btn {
+  margin: 20px 0;
 }
 
 .product-sec {
@@ -70,13 +84,40 @@ main {
 
 .footer {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: #ede0d4;
-  height: 50px;
   width: 100%;
 }
-.footer p {
-  margin: 0;
+.footer__trademark, .footer__disclosure {
+  text-align: center;
+  margin: 3px;
   color: #432818;
+}
+
+@media screen and (min-width: 768px) {
+  #hamburger-icon {
+    display: none;
+  }
+  .nav--desktop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header__home-btn, .header__contact-btn {
+    text-decoration: none;
+    background-color: #7f5539;
+    border: 2px solid #7f5539;
+    color: #ede0d4;
+    font-size: 1.25rem;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  .header__home-btn:hover, .header__contact-btn:hover {
+    background-color: #ede0d4;
+    color: #432818;
+  }
 }/*# sourceMappingURL=products.css.map */
