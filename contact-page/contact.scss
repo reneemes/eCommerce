@@ -56,6 +56,13 @@ main {
   &__title {
     color: $dark-brown;
     margin: 0;
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: bold;
+
+    &:hover {
+      color: $light-brown;
+    }
   }
 }
 
@@ -129,13 +136,9 @@ main {
   
   &__submit-btn {
     @include btn;
-    border: none;
     width: 100%;
     margin: 20px 0;
-    
-    &:hover {
-      border: 2px solid $dark-brown
-    }
+    font-family: 'Courier New', Courier, monospace;
   }
 
   input,
