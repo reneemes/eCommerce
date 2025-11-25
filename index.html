@@ -9,7 +9,7 @@
 </head>
 <body>
   <header class="header">
-    <h1 class="header__title">Bagel Bites</h1>
+    <h1 class="header__title" onclick="navToHome()">Bagel Bites</h1>
     <nav class="nav nav--desktop" id="desktop-nav">
       <a class="header__product-btn" href="product-page/products.html">Shop Bagels</a>
       <a class="header__contact-btn" href="contact-page/contact.html">Contact Us</a>
@@ -47,13 +47,16 @@
     </section>
   </main>
   <footer class="footer">
+    <div class="footer__socials">
+      <a href="#"><i class="fa-brands fa-instagram fa-2xl" style="color: #432818;"></i></a>
+      <a href="#"><i class="fa-brands fa-square-facebook fa-2xl" style="color: #432818;"></i></a>
+    </div>
     <p class="footer__trademark">Copyright © 2025 Bagel Bites. All rights reserved.</p>
     <p class="footer__disclosure">
       Bagel Bites is a student project for educational purposes and is not a
       real store.
     </p>
   </footer>
-
   <script src="script.js"></script>
 </body>
 </html>

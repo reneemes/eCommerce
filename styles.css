@@ -136,6 +136,12 @@ main {
   margin: 3px;
   color: #432818;
 }
+.footer__socials {
+  margin: 20px 0;
+}
+.footer__disclosure {
+  margin-bottom: 20px;
+}
 
 @media screen and (min-width: 768px) {
   #hamburger-icon {
@@ -161,12 +167,23 @@ main {
     background-color: #ede0d4;
     color: #432818;
   }
+  .main-description__greeting {
+    font-size: 2rem;
+  }
+  .main-description__about {
+    font-size: 1.25rem;
+  }
   .main-links {
     max-width: 50vw;
     margin: 0 auto;
   }
 }
 @media screen and (min-width: 1024px) {
+  .main-description__about {
+    border-radius: 10px;
+    max-width: 60vw;
+    margin: 0 auto;
+  }
   .main-links {
     max-width: 30vw;
     margin: 0 auto;

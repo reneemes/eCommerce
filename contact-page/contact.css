@@ -24,6 +24,12 @@ main {
 .header__title {
   color: #432818;
   margin: 0;
+  text-decoration: none;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.header__title:hover {
+  color: #ede0d4;
 }
 
 .nav--desktop {
@@ -93,16 +99,13 @@ main {
   padding: 10px;
   border-radius: 10px;
   cursor: pointer;
-  border: none;
   width: 100%;
   margin: 20px 0;
+  font-family: "Courier New", Courier, monospace;
 }
 .contact-form__submit-btn:hover {
   background-color: #ede0d4;
   color: #432818;
-}
-.contact-form__submit-btn:hover {
-  border: 2px solid #432818;
 }
 .contact-form input,
 .contact-form textarea {
@@ -124,6 +127,10 @@ main {
   font-size: 0.9rem;
   margin: 3px;
 }
+.contact-form .error-message {
+  margin: 10px 0 0;
+  color: firebrick;
+}
 
 .footer {
   display: flex;
@@ -137,6 +144,12 @@ main {
   text-align: center;
   margin: 3px;
   color: #432818;
+}
+.footer__socials {
+  margin: 20px 0;
+}
+.footer__disclosure {
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width: 768px) {
