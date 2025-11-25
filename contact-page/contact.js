@@ -35,8 +35,8 @@ function validateForm() {
     email.value == '' ||
     commentBox.value == ''
   ) {
-    e.preventDefault();
     errorBox.textContent = 'Please fill out all required forms.';
+    errorBox.style.color = 'firebrick';
   } else {
     alert('Thank you for reaching out to Bagel Bites! We will get back to you shortly.');
     clearForm();
@@ -48,4 +48,5 @@ function clearForm() {
   lastName.value = '';
   email.value = '';
   commentBox.value = '';
+  errorBox.textContent = '';
 }
